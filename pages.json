@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home"
+		
+		},
+		{
+			"path": "pages/shopcar/shopcar",
+			"style" :
+			{
+			    "navigationBarTitleText": "购物车"
+			    
+			}
+		
+		},
+		{
+			"path": "pages/news/news",
+			"style" :
+			{
+			    "navigationBarTitleText": "咨询消息"
+			    
+			}
+		    
+		},
+		{
+			"path": "pages/member/member",
+			"style" :
+			{
+			    "navigationBarTitleText": "会员界面"
+			    
+			}
+		
+		},
+		
+		
+		{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/contacts/contacts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/imgs/imgs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/new_detail/new_detail",
+            "style" :
+            {
+                "navigationBarTitleText": "咨询详情"
+                
+            }
+        }
+        ,{
+            "path" : "pages/good_detail/good_detail",
+            "style" :
+            {
+                "navigationBarTitleText": "商品详情"
+                
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Z龙商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#b50e03",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/home",
+	        "iconPath": "static/icon/home.png",
+	        "selectedIconPath": "static/icon/home-active.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/news",
+	        "iconPath": "./static/icon/news.png",
+	        "selectedIconPath": "static/icon/news-active.png",
+	        "text": "咨询"
+	    },{
+	        "pagePath": "pages/shopcar/shopcar",
+	        "iconPath": "static/icon/cart.png",
+	        "selectedIconPath": "static/icon/cart-active.png",
+	        "text": "购物车"
+	    }, {
+	        "pagePath": "pages/member/member",
+	        "iconPath": "static/icon/member.png",
+	        "selectedIconPath": "static/icon/member-active.png",
+	        "text": "会员"
+	    }]
+	}
+}
